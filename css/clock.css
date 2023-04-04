@@ -1,0 +1,86 @@
+@font-face {
+    font-family: customfont;
+    src: url(/Bungee-Regular.ttf);
+}
+
+body,
+html {
+    height: 100%
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.bg-image {
+    background-image: url(/Images/misty-trees.jpg);
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.myClock {
+
+
+    font-family: customfont;
+    font-size: 25vh;
+    font-weight: bold;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+
+
+
+
+
+
+
+}
+
+.image-text, .copyright {
+    background-image: url(/Images/misty-trees.jpg);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100vw;
+    
+   
+
+
+
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(22, 22, 22, 0.87);
+}
+
+.copyright{
+    
+    font-family: customfont;
+    font-size: 5vh;
+    font-weight: bold;
+}
