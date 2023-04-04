@@ -25,13 +25,13 @@ html {
     overflow:hidden
 }
 
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 
 .bg-image {
-    background-image: url(/Images/misty-trees.jpg);
+    background-image: url(../Images/misty-trees.jpg);
 
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -72,7 +72,7 @@ html {
 
 
 .image-text {
-    background-image: url(/Images/misty-trees.jpg);
+    background-image: url(../Images/misty-trees.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
