@@ -13,6 +13,21 @@ function getCurrentDate()
     minute = now.getMinutes();
     second = now.getSeconds();
 
+    let year = now.getFullYear();
+    let month = now.getMonth();
+    let day = now.getDay();
+
+    if (month < 10)
+    {
+        month = "0" + month
+    }
+    if (day < 10)
+    {
+        day = "0" + day
+    }
+
+
+
     if(hour < 10)
     {
         hour = "0" + hour
@@ -30,6 +45,6 @@ function getCurrentDate()
     }
 
     document.getElementById("combined").innerHTML = hour + ":" + minute + ":" + second
-
+    document.getElementById("copyright").innerHTML = year + "-" + month + "-" + day
 
 }
