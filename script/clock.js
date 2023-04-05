@@ -6,7 +6,8 @@ function getCurrentDate()
     var hour = "";
     var minute = "";
     var second = "";
-    
+    var apex = "";
+
     var now = new Date();
 
     hour = now.getHours();
@@ -44,7 +45,19 @@ function getCurrentDate()
         second = "0" + second
     }
 
+    if(hour == 23)
+    {
+        apex = "it's eleven boys. where gaming"
+        document.getElementById("copyright").innerHTML = apex
+
+    }
+    else
+    {
+        document.getElementById("copyright").innerHTML = year + "-" + month + "-" + day
+
+    }
+
     document.getElementById("combined").innerHTML = hour + ":" + minute + ":" + second
-    // document.getElementById("copyright").innerHTML = year + "-" + month + "-" + day
+    
 
 }
