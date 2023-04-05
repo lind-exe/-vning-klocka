@@ -45,6 +45,6 @@ function getCurrentDate()
     }
 
     document.getElementById("combined").innerHTML = hour + ":" + minute + ":" + second
-    document.getElementById("copyright").innerHTML = year + "-" + month + "-" + day
+    // document.getElementById("copyright").innerHTML = year + "-" + month + "-" + day
 
 }
